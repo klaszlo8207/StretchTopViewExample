@@ -6,9 +6,9 @@ The Examples show you how can you use this type of view
 
 ## Images
 
-![alt text](http://imgur.com/0gW4x5d "")
+!(http://i.imgur.com/0gW4x5d.gif "")
 
-![alt text](http://imgur.com/v1hi8eJ "")
+!(http://i.imgur.com/v1hi8eJ.mp4 "")
 
 ## Usage for a top ImageView in xml:
 
