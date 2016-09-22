@@ -1,6 +1,6 @@
-# Tinder like stretch top ScrollView
+# Tinder like ANDROID stretch top ScrollView
 
-This is a Tinder like Stretch Top ScrollView custom View..
+This is a **Tinder** like **android Stretch Top ScrollView** custom View..
 The Examples show you how can you use this type of view
 
 ## Gifs:
