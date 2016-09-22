@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<hu.lacroix82.stretchtopview.stretch.StretchTopScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/stretchTopView"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/topView"
+            android:src="@drawable/img1"
+            android:scaleType="centerCrop"
+            />
+
+       <include layout="@layout/view_bottom" />
+
+    </LinearLayout>
+
+</hu.lacroix82.stretchtopview.stretch.StretchTopScrollView>
