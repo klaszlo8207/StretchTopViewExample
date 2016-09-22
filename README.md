@@ -1,10 +1,9 @@
-# StretchTopViewExample - Tinder like stretch top ScrollView
+# Tinder like stretch top ScrollView
 
-This is a Tinder like Stretch Top ScrollView custom View!
-
+This is a Tinder like Stretch Top ScrollView custom View..
 The Examples show you how can you use this type of view
 
-## Images
+## Gifs:
 
 
 ![Alt Text](http://x68.imgup.net/gif1a0b0.gif) ![Alt Text](http://q01.imgup.net/gif2dfbb.gif)
@@ -83,12 +82,9 @@ The Examples show you how can you use this type of view
 </hu.lacroix82.stretchtopview.stretch.StretchTopScrollView>
 ```
 
-## then just use in code:
+## after just use in code:
 
 ```java
-@Bind(R.id.stretchTopView) StretchTopScrollView stretchTopView;
-
-...
         stretchTopView.setFactor(1.7f);
 
         stretchTopView.setChangeListener(new StretchTopScrollView.onOverScrollChanged() {
@@ -100,8 +96,11 @@ The Examples show you how can you use this type of view
 
 ```
 
-stretchTopView
- .setFactor(float v) : a float factor for the stretch, between 1.0f and maybe 2.0f, optional, default is 1.6f
+ **.setFactor(float v)** : a float factor for the stretch, between 1.0f and maybe 2.0f, optional, default is 1.6f
 
- .setChangeListener(...) : a simple callback that can return the animated factor in a float : 0-100%, between 0f and 1f
+ **.setChangeListener(...)** : a simple callback that can return the animated factor in a float : 0-100%, between 0f and 1f
+ 
+ 
+## Author:
 
+**created** by Kozári László
