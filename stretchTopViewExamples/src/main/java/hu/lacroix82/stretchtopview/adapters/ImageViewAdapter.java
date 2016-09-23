@@ -10,7 +10,7 @@ import android.widget.ImageView;
 
 import java.util.ArrayList;
 
-import stretchtopview.lacroix82.hu.stretchscrollbarexample.R;
+import hu.lacroix82.stretchscrollbarexample.R;
 
 
 public class ImageViewAdapter extends PagerAdapter {

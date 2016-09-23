@@ -4,7 +4,8 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-import stretchtopview.lacroix82.hu.stretchscrollbarexample.R;
+import hu.lacroix82.stretchscrollbarexample.R;
+
 
 public class MainActivity extends AppCompatActivity {
 

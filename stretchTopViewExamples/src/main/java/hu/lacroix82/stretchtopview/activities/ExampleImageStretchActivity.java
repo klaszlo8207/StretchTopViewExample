@@ -9,9 +9,9 @@ import android.widget.TextView;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
+import hu.lacroix82.stretchscrollbarexample.R;
 import hu.lacroix82.stretchtopview.Globals;
-import stretchtopview.lacroix82.hu.stretchtopviewlibrary.stretch.StretchTopScrollView;
-import stretchtopview.lacroix82.hu.stretchscrollbarexample.R;
+import hu.lacroix82.stretchtopviewlibrary.StretchTopScrollView;
 
 public class ExampleImageStretchActivity extends AppCompatActivity {
 

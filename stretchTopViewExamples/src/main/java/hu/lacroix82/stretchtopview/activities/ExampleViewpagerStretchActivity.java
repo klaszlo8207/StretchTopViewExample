@@ -15,10 +15,10 @@ import java.util.ArrayList;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
+import hu.lacroix82.stretchscrollbarexample.R;
 import hu.lacroix82.stretchtopview.Globals;
 import hu.lacroix82.stretchtopview.adapters.ImageViewAdapter;
-import stretchtopview.lacroix82.hu.stretchscrollbarexample.R;
-import stretchtopview.lacroix82.hu.stretchtopviewlibrary.stretch.StretchTopScrollView;
+import hu.lacroix82.stretchtopviewlibrary.StretchTopScrollView;
 
 public class ExampleViewpagerStretchActivity extends AppCompatActivity {
 
