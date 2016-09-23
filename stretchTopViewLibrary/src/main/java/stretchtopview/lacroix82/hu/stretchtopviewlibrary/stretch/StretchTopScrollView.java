@@ -1,4 +1,4 @@
-package hu.lacroix82.stretchtopview.stretch;
+package stretchtopview.lacroix82.hu.stretchtopviewlibrary.stretch;
 
 import android.content.Context;
 import android.util.AttributeSet;

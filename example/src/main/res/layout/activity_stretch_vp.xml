@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<hu.lacroix82.stretchtopview.stretch.StretchTopScrollView
+<stretchtopview.lacroix82.hu.stretchtopviewlibrary.stretch.StretchTopScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/stretchTopView"
     android:layout_width="match_parent"
@@ -34,4 +34,4 @@
 
     </LinearLayout>
 
-</hu.lacroix82.stretchtopview.stretch.StretchTopScrollView>
+</stretchtopview.lacroix82.hu.stretchtopviewlibrary.stretch.StretchTopScrollView>

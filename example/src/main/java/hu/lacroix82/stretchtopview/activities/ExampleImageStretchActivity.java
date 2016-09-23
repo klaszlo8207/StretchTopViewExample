@@ -10,13 +10,12 @@ import android.widget.TextView;
 import butterknife.Bind;
 import butterknife.ButterKnife;
 import hu.lacroix82.stretchtopview.Globals;
-import hu.lacroix82.stretchtopview.stretch.StretchTopScrollView;
+import stretchtopview.lacroix82.hu.stretchtopviewlibrary.stretch.StretchTopScrollView;
 import stretchtopview.lacroix82.hu.stretchscrollbarexample.R;
 
 public class ExampleImageStretchActivity extends AppCompatActivity {
 
-    @Bind(R.id.stretchTopView)
-    StretchTopScrollView stretchTopView;
+    @Bind(R.id.stretchTopView) StretchTopScrollView stretchTopView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +33,7 @@ public class ExampleImageStretchActivity extends AppCompatActivity {
 
         final TextView descriptionTextView = (TextView) bottomView.findViewById(R.id.descriptionTextView);
         descriptionTextView.setText(Html.fromHtml(Globals.DESC));
+
         stretchTopView.setFactor(1.7f);
 
         stretchTopView.setChangeListener(new StretchTopScrollView.onOverScrollChanged() {

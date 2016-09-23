@@ -17,8 +17,8 @@ import butterknife.Bind;
 import butterknife.ButterKnife;
 import hu.lacroix82.stretchtopview.Globals;
 import hu.lacroix82.stretchtopview.adapters.ImageViewAdapter;
-import hu.lacroix82.stretchtopview.stretch.StretchTopScrollView;
 import stretchtopview.lacroix82.hu.stretchscrollbarexample.R;
+import stretchtopview.lacroix82.hu.stretchtopviewlibrary.stretch.StretchTopScrollView;
 
 public class ExampleViewpagerStretchActivity extends AppCompatActivity {
 
@@ -33,10 +33,10 @@ public class ExampleViewpagerStretchActivity extends AppCompatActivity {
 
         ButterKnife.bind(this);
 
-        setupTopStretchViewPagerWithCode();
+        init();
     }
 
-    private void setupTopStretchViewPagerWithCode() {
+    private void init() {
 
         final FrameLayout topView = (FrameLayout)stretchTopView.getTopView();
         final LinearLayout bottomView = (LinearLayout)stretchTopView.getBottomView();
