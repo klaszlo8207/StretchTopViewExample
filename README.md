@@ -12,7 +12,7 @@ The Examples show you how can you use this type of view
 
 ```java
 <?xml version="1.0" encoding="utf-8"?>
-<hu.lacroix82.stretchtopview.stretch.StretchTopScrollView
+<hu.lacroix82.stretchtopviewlibrary.StretchTopScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -37,14 +37,14 @@ The Examples show you how can you use this type of view
 
     </LinearLayout>
 
-</hu.lacroix82.stretchtopview.stretch.StretchTopScrollView>
+</hu.lacroix82.stretchtopviewlibrary.StretchTopScrollView>
 ```
 
 ## Usage for a top ViewPager in xml:
 
 ```java
 <?xml version="1.0" encoding="utf-8"?>
-<hu.lacroix82.stretchtopview.stretch.StretchTopScrollView
+<hu.lacroix82.stretchtopviewlibrary.StretchTopScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/stretchTopView"
     android:layout_width="match_parent"
@@ -79,7 +79,7 @@ The Examples show you how can you use this type of view
 
     </LinearLayout>
 
-</hu.lacroix82.stretchtopview.stretch.StretchTopScrollView>
+</hu.lacroix82.stretchtopviewlibrary.StretchTopScrollView>
 ```
 
 ## after just use in code:
