@@ -108,3 +108,10 @@ The Examples show you how can you use this type of view
 ## Author:
 
 **created** by Kozári László
+
+## License:
+
+Copyright 2017 Kozári László
+
+Licensed under the Apache License, Version 2.0 (the "License")
+
